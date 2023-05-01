@@ -14,6 +14,7 @@ const Clicks = () => {
       <button className={`${styles.btn} ${styles.btnRadiusGradientWrap}`} onClick={Increase}>
         +
       </button>
+      <div>test</div>
     </>
   )
 }
