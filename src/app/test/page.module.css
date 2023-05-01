@@ -1,0 +1,51 @@
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btnRadiusGradientWrap {
+  display: inline-block;
+
+  padding: 0.5rem;
+
+  border-radius: 100vh;
+  background: #f2f5f6;
+  background: -webkit-linear-gradient(to top, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), color-stop(37%, #e3eaed), to(#96a1a5));
+  background: -webkit-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
+  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+.btnRadiusGradientWrap {
+  border-radius: 100vh;
+  background: #e3eaed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3eaed), to(#f2f5f6));
+  background: -webkit-linear-gradient(top, #e3eaed 0%, #f2f5f6 100%);
+  background: linear-gradient(to bottom, #e3eaed 0%, #f2f5f6 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eaed', endColorstr='#f2f5f6', GradientType=0);
+}
+
+.btnRadiusGradientWrap:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
